@@ -440,3 +440,32 @@ header nav .form i {
     margin-left: 900px;
 } */
 /* End Design */
+
+/* Start Portfolio */
+    .portfolio {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    }
+    .portfolio .shuffle {
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio .shuffle li {
+        padding: 10px;
+    }
+    .portfolio .shuffle li.active{
+        background-color: var(--main-color);
+        color: white;
+    }
+    .portfolio .imgs-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    .portfolio .imgs-container .box{
+        flex-basis: 25%;
+    }
+    .portfolio .imgs-container .box img{
+        max-width: 100%;
+    }
+/* End Portfolio */
